@@ -11,7 +11,7 @@ div{
 #text1{
     font-family: 'Roboto Bold', sans-serif;
     font-size: 48px;
-    font-weight: 950px;
+    font-weight: 700;
     color: #F9FAF8;
 }
 .button{
@@ -20,7 +20,7 @@ div{
     color: white;
     border: none;
     border-radius: 5px;
-    padding: 4px 15px;
+    padding: 10px 20px;
     font-size: 16px;
 }
 
@@ -30,13 +30,19 @@ div{
 }
 .toolbar{
     padding-top: 0;
+    margin:0;
     display: flex;
 }
 
 #logo{
-    font-family: 'Roboto Bold', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
     padding-right: 575px;
     padding-left: 60px;
+}
+
+#link1{
+    float:right;
 }
 
 
@@ -51,5 +57,69 @@ div{
 
 .header-text{
     display: block;
-    font: 48px, extra-bold, #F9FAF8;
 }
+
+.container2{
+    background-color: white;
+}
+
+.middletext{
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.boxcontainer{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.actualbox{
+    border: 5px;
+    padding: 150px;
+    padding-top: 180px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 5px;
+}
+
+.description{
+    text-align: center;
+}
+
+.source{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: right;
+}
+.quotecontainer{
+    font-style: italic;
+    justify-content: center;
+    text-align: center;
+    background-color: #E5E7EB;
+    padding:250px;
+    font-size: 36px;
+}
+
+.footercontainer{
+    display:block;
+    padding: 200px;
+}
+.calltoaction{
+    display: inline-flex;
+    background-color: #3882F6;
+    text-align: center;
+    align-content: center;
+    border-radius: 5px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.contactContainer{
+    display: flex;
+    align-items: center;
+    border-width: 50px ;
+}
+
